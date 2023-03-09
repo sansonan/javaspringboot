@@ -1,0 +1,13 @@
+
+spring:
+     datasource:
+       url: jdbc:postgresql://localhost:5432/demodb
+       username: demodb
+       password: 123456
+     jpa:
+      properties:
+         hibernate:
+         dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate:
+         ddl-auot: update
+        
